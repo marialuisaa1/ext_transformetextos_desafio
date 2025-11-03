@@ -20,6 +20,7 @@
   justify-content: center;
   align-items: center;
 }
+
 /* config botões */
 .container-button {
   width: 160px;
@@ -41,6 +42,12 @@
 }
 .container-button .button-group:last-child .btn {
   width: 160px; 
+}
+button {
+  background-color: rgb(201, 242, 255);
+  color: rgb(66, 62, 62);
+  border-radius: 6px;
+  border: none;
 }
 
 .btn {
