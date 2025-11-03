@@ -1,0 +1,22 @@
+{
+    "name":"Transforme Textos",
+    "version":"1.0",
+    "manifest_version":3,
+    "description": "Esta extensão serve para transformar seus texto em letras MAISCULAS ou minusculas",
+    "action":{
+        "default_popup":"index.html",
+        "default_icon":{
+            "16":"icons/Logo_vetorizada16.png",
+            "48":"icons/Logo_vetorizada48.png",
+            "128":"icons/Logo_vetorizada128.png"
+        }
+
+    },
+    "icons": {
+        "16":"icons/Logo_vetorizada16.png",
+        "48":"icons/Logo_vetorizada48.png",
+        "128":"icons/Logo_vetorizada128.png",
+        "300":"icons/Logo_vetorizada300.png"
+
+    }
+}

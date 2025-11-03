@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /*Chamando fonte*/
+  font-family: "Ubuntu", sans-serif;
+  font-size: 0.85rem;
+
+  /* Bordas View */
+  /*  border: solid 1px #fe02d0  ; */
+}
+
+.container-pai {
+  width: 200px;
+  height: 220px;
+
+  /* FlexBox */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/* config botões */
+.container-button {
+  width: 160px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  gap: 5px;
+  /* FlexBox */
+  flex-wrap: wrap;
+  display: flex;
+  
+}
+.button-group{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.container-button .button-group:last-child {
+  justify-content: center;
+}
+.container-button .button-group:last-child .btn {
+  width: 160px; 
+}
+
+.btn {
+  cursor: pointer;
+  width: 77px;
+  padding: 1px;
+}
+
+/* Desafio para Turma B */
+/* Cabeçalho */
+.cabecalho {
+  display: flex;
+  gap: 4px;
+  height: 25px;
+}
+
+/* Resultado */
+.result {
+  resize: none;
+  width: 160px;
+  height: 70px;
+}
