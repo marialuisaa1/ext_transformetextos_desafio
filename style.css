@@ -54,6 +54,12 @@ button {
   border-radius: 6px;
   border: none;
 }
+button:hover {
+  background-color:  rgb(193, 235, 247); 
+  color: rgb(104, 86, 103); 
+  transition: 0.3s; 
+}
+
 
 .btn {
   cursor: pointer;
@@ -90,4 +96,8 @@ p{
 a {
   color: rgb(228, 117, 222);  
   font-weight: 500;
+}
+a:hover {
+  color: rgb(180, 60, 175); 
+  text-decoration: underline;
 }
